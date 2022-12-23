@@ -84,7 +84,7 @@ function setup() {
   let canvas = createCanvas(boundingRects.width, boundingRects.height);
   canvas.parent("p5Canvas");
 	background(0);
-	w = min(1200, 800);
+	w = min(800, 800);
   pixelDensity(1);
 	
 	buffer = createGraphics(w, w, WEBGL);
